@@ -1,0 +1,79 @@
+[
+    {
+        "model": "zoo.habitat",
+        "pk": 1,
+        "fields": {
+            "name": "Savannah"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 2,
+        "fields": {
+            "name": "Grassland"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 3,
+        "fields": {
+            "name": "Outback"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 4,
+        "fields": {
+            "name": "Bamboo Forest"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 5,
+        "fields": {
+            "name": "Forest"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 6,
+        "fields": {
+            "name": "Eucalyptus Forest"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 7,
+        "fields": {
+            "name": "Antarctic"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 8,
+        "fields": {
+            "name": "Rainforest"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 9,
+        "fields": {
+            "name": "Wetland"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 10,
+        "fields": {
+            "name": "Woodland"
+        }
+    },
+    {
+        "model": "zoo.habitat",
+        "pk": 11,
+        "fields": {
+            "name": "Arctic"
+        }
+    }
+]

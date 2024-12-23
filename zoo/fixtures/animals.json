@@ -1,0 +1,242 @@
+[
+    {
+        "model": "zoo.animal",
+        "pk": 1,
+        "fields": {
+            "name": "Lion",
+            "species": "Panthera leo",
+            "diet": "Carnivore",
+            "description": "Lions are large carnivores found in sub-Saharan Africa. They are known for their majestic manes and are often referred to as the 'king of the jungle'. Lions live in social groups called prides, consisting of several females, their cubs, and a few males. They are apex predators, primarily preying on herbivores such as zebras, buffaloes, and antelopes. Lions are endangered due to habitat loss, human-wildlife conflict, and poaching.",
+            "gif": "animals_gifs/lion.gif",
+            "habitat": 1
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 2,
+        "fields": {
+            "name": "Elephant",
+            "species": "Loxodonta africana",
+            "diet": "Herbivore",
+            "description": "Elephants are the largest land animals, known for their massive size, long trunks, and large ears. They are highly intelligent and social creatures, living in tight-knit family groups led by a matriarch. Elephants are primarily herbivores, feeding on grasses, fruits, and tree bark. They are native to Africa and Asia and are critically endangered due to poaching for their ivory tusks, habitat loss, and human-wildlife conflict.",
+            "gif": "animals_gifs/elephant.gif",
+            "habitat": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 3,
+        "fields": {
+            "name": "Giraffe",
+            "species": "Giraffa camelopardalis",
+            "diet": "Herbivore",
+            "description": "Giraffes are the tallest land animals, reaching heights of up to 18 feet. Their long necks and legs help them feed on leaves high in trees, primarily acacia. Giraffes are social animals, living in loose herds. They are found in the savannas and open woodlands of Africa. Giraffe populations are declining due to habitat loss and poaching for their meat and skin.",
+            "gif": "animals_gifs/giraffe.gif",
+            "habitat": 1
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 4,
+        "fields": {
+            "name": "Zebra",
+            "species": "Equus zebra",
+            "diet": "Herbivore",
+            "description": "Zebras are herbivorous mammals known for their distinctive black-and-white striped coats. They are closely related to horses and are found in the grasslands and savannas of Africa. Zebras live in social groups and are often seen grazing in herds. They rely on their speed and agility to avoid predators, and their stripes provide camouflage in tall grasses. Zebras are threatened by habitat loss and hunting.",
+            "gif": "animals_gifs/zebra.gif",
+            "habitat": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 5,
+        "fields": {
+            "name": "Kangaroo",
+            "species": "Macropus rufus",
+            "diet": "Herbivore",
+            "description": "Kangaroos are marsupial mammals native to Australia. They are known for their strong hind legs, which they use to hop at high speeds. Kangaroos are herbivores and primarily feed on grasses. They live in large groups known as mobs, which provide protection from predators. Kangaroos are well adapted to the Australian Outback, where they can survive in harsh conditions. Habitat loss and hunting threaten their populations.",
+            "gif": "animals_gifs/kangaroo.gif",
+            "habitat": 3
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 6,
+        "fields": {
+            "name": "Panda",
+            "species": "Ailuropoda melanoleuca",
+            "diet": "Herbivore",
+            "description": "Pandas are large bears native to China, primarily known for their black and white fur and their dependence on bamboo. They have a specialized diet, feeding almost exclusively on bamboo, which provides them with very little nutrition. Pandas are solitary animals and spend most of their time eating or resting. Despite their cute appearance, pandas are endangered due to habitat loss and low birth rates.",
+            "gif": "animals_gifs/panda.gif",
+            "habitat": 4
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 7,
+        "fields": {
+            "name": "Tiger",
+            "species": "Panthera tigris",
+            "diet": "Carnivore",
+            "description": "Tigers are the largest members of the cat family, known for their powerful build and distinctive orange coat with black stripes. Tigers are solitary hunters, preying on large animals such as deer and wild boar. They are native to Asia and are found in a variety of habitats, including forests, grasslands, and wetlands. Tigers are critically endangered due to habitat destruction, poaching, and the illegal wildlife trade.",
+            "gif": "animals_gifs/tiger.gif",
+            "habitat": 5
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 8,
+        "fields": {
+            "name": "Koala",
+            "species": "Phascolarctos cinereus",
+            "diet": "Herbivore",
+            "description": "Koalas are marsupials native to Australia, known for their large, fluffy ears and their preference for sleeping in eucalyptus trees. They are herbivores, feeding almost exclusively on eucalyptus leaves, which are toxic to most other animals. Koalas are endangered due to habitat loss, disease, and the effects of climate change.",
+            "gif": "animals_gifs/koala.gif",
+            "habitat": 6
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 9,
+        "fields": {
+            "name": "Penguin",
+            "species": "Spheniscidae",
+            "diet": "Carnivore",
+            "description": "Penguins are flightless birds found primarily in the Southern Hemisphere, with the majority living in Antarctica. Penguins are adapted for life in the water, using their wings as flippers to propel themselves through the ocean in search of fish and krill. They are social birds, often seen in large colonies. Penguins are vulnerable to climate change, as warming temperatures threaten their icy habitats.",
+            "gif": "animals_gifs/penguin.gif",
+            "habitat": 7
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 10,
+        "fields": {
+            "name": "Gorilla",
+            "species": "Gorilla gorilla",
+            "diet": "Omnivore",
+            "description": "Gorillas are large primates native to the forests of central Africa. They are primarily herbivores but will occasionally eat insects. Gorillas live in tight-knit family groups led by a dominant silverback male. They are highly intelligent and social animals, known for their use of tools and complex communication. Gorillas are endangered due to habitat loss, poaching, and disease.",
+            "gif": "animals_gifs/gorilla.gif",
+            "habitat": 5
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 11,
+        "fields": {
+            "name": "Cheetah",
+            "species": "Acinonyx jubatus",
+            "diet": "Carnivore",
+            "description": "Cheetahs are known as the fastest land animals, capable of reaching speeds up to 60 mph in short bursts. Their slender, aerodynamic bodies and long legs allow them to sprint with incredible speed, which they use to catch prey such as antelope and other small mammals in the savannas of sub-Saharan Africa. Unlike most big cats, cheetahs hunt during the day, relying on their speed to chase down prey. Cheetah populations are endangered due to habitat loss, human-wildlife conflict, and a low genetic diversity, making conservation efforts crucial for their survival.",
+            "gif": "animals_gifs/Cheetah.gif",
+            "habitat": 1
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 12,
+        "fields": {
+            "name": "Rhinoceros",
+            "species": "Rhinocerotidae",
+            "diet": "Herbivore",
+            "description": "Rhinos are large, thick-skinned herbivores found in Africa and parts of Asia. Known for their distinctive horns, which are made of keratin (the same material as human hair and nails), rhinos are primarily grazers. There are two main types of rhinos: white and black, both facing threats from poaching and habitat destruction. Rhinos are often solitary and territorial, with some species living in grasslands, while others inhabit dense forests. Their horn is highly valued on the black market, and efforts to curb poaching are critical for protecting these endangered animals.",
+            "gif": "animals_gifs/rhinoceros.gif",
+            "habitat": 2
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 13,
+        "fields": {
+            "name": "Sloth",
+            "species": "Folivora",
+            "diet": "Herbivore",
+            "description": "Sloths are slow-moving mammals native to Central and South America. They are known for their lethargic behavior, spending most of their lives hanging from trees in tropical rainforests. Sloths have a very low metabolism, which contributes to their slow movements and need for rest. Their diet mainly consists of leaves, which provide them with minimal energy. Sloths are adapted to their arboreal lifestyle, with long claws that help them cling to tree branches. Despite their slow pace, sloths are excellent swimmers and can hold their breath for up to 40 minutes underwater.",
+            "gif": "animals_gifs/sloth.gif",
+            "habitat": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 14,
+        "fields": {
+            "name": "Hippopotamus",
+            "species": "Hippopotamus amphibius",
+            "diet": "Herbivore",
+            "description": "Hippos are large, mostly herbivorous mammals native to sub-Saharan Africa. They spend a significant amount of time submerged in water, where they cool off and keep their skin moist. Despite their bulky appearance, hippos can run up to 30 miles per hour on land. They are territorial animals, especially in water, and can be highly aggressive when threatened. Hippos primarily graze on grasses during the night, and their behavior and interactions with other animals play an important role in the ecosystems of rivers and lakes.",
+            "gif": "animals_gifs/hippo.gif",
+            "habitat": 9
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 15,
+        "fields": {
+            "name": "Jaguar",
+            "species": "Panthera onca",
+            "diet": "Carnivore",
+            "description": "Jaguars are large cats native to the Americas, primarily found in Central and South America. Known for their powerful build and distinctive yellow coat with black spots, jaguars are solitary hunters. They are capable of hunting large prey, including deer, capybaras, and even caimans. One of their unique features is their incredibly strong jaws, capable of crushing the skulls or shells of their prey. Jaguars play a crucial role in maintaining the balance of their ecosystems, but their populations are threatened by habitat destruction and illegal hunting.",
+            "gif": "animals_gifs/jaguar.gif",
+            "habitat": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 16,
+        "fields": {
+            "name": "Wolf",
+            "species": "Canis lupus",
+            "diet": "Carnivore",
+            "description": "Wolves are carnivorous mammals found across North America, Europe, and Asia. Known for their strong social bonds, wolves live in packs led by an alpha pair. They are highly skilled hunters, relying on cooperation to bring down prey such as deer, moose, and elk. Wolves communicate through vocalizations, body language, and scent marking. They have a significant role in their ecosystem, controlling the populations of other animals. Despite their important ecological role, wolves have historically faced persecution, and their populations are still recovering in many parts of the world.",
+            "gif": "animals_gifs/wolf.gif",
+            "habitat": 5
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 17,
+        "fields": {
+            "name": "Owl",
+            "species": "Strigidae",
+            "diet": "Carnivore",
+            "description": "Owls are nocturnal birds of prey known for their specialized adaptations for hunting in low light. Their excellent vision and silent flight help them capture prey such as small mammals, birds, and insects. Owls can rotate their heads up to 270 degrees, allowing them to spot prey from different angles. They have specialized feathers that reduce noise during flight, making them stealthy hunters. With over 200 species, owls are found in a variety of habitats worldwide. Their hooting calls are iconic, and they have been symbols of wisdom and mystery in many cultures.",
+            "gif": "animals_gifs/owl.gif",
+            "habitat": 10
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 18,
+        "fields": {
+            "name": "Polar Bear",
+            "species": "Ursus maritimus",
+            "diet": "Carnivore",
+            "description": "Polar bears are large carnivores native to the Arctic, adapted to survive in cold, icy environments. They have a thick layer of fat and dense fur to keep warm in freezing temperatures. Polar bears primarily hunt seals, using their excellent swimming abilities to track prey through the ice. These solitary creatures are threatened by climate change, as the warming of the Arctic causes sea ice to melt, limiting their ability to hunt. Conservation efforts are essential to preserving polar bear habitats and ensuring their continued survival in the face of environmental changes.",
+            "gif": "animals_gifs/polar bear.gif",
+            "habitat": 11
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 19,
+        "fields": {
+            "name": "Lemur",
+            "species": "Lemuridae",
+            "diet": "Omnivore",
+            "description": "Lemurs are unique primates native to the island of Madagascar. Known for their large, expressive eyes and long, bushy tails, lemurs are social creatures that live in groups called troops. They primarily eat fruits, leaves, and insects, and are often seen foraging in the trees. Lemurs play an important role in the ecosystems of Madagascar by dispersing seeds and pollens. With many species critically endangered due to habitat loss, hunting, and the pet trade, lemurs face a grim future, and conservation efforts are vital for protecting them in their native habitats.",
+            "gif": "animals_gifs/lemur.gif",
+            "habitat": 8
+        }
+    },
+    {
+        "model": "zoo.animal",
+        "pk": 20,
+        "fields": {
+            "name": "Chimpanzee",
+            "species": "Pan troglodytes",
+            "diet": "Omnivore",
+            "description": "Chimpanzees are highly intelligent primates found in the forests and savannas of West and Central Africa. Sharing about 98% of their DNA with humans, chimpanzees are our closest living relatives. They are known for their social behavior, forming complex communities and using tools to obtain food. Chimpanzees are omnivores, feeding on a variety of fruits, leaves, insects, and occasionally meat. However, their populations are threatened by habitat destruction and poaching. As a critically endangered species, chimpanzees require urgent conservation efforts to preserve their habitats and ensure their survival.",
+            "gif": "animals_gifs/chimpanzee.gif",
+            "habitat": 5
+        }
+    }
+]

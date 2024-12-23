@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        #zoo-map {
+          height: 500px;
+          width: 100%;
+        }
+      </style>
+</head>
+<body>
+    <h1>Interactive Virtual Zoo Map</h1>
+    <div id="zoo-map"></div>
+    
+    <script>
+        // Initialize the map and set the view to a specific location
+        var map = L.map('zoo-map').setView([51.505, -0.09], 13); // Default location and zoom level
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add markers for zoo locations
+        var habitats = [
+            { name: "Lion's Den", coords: [51.505, -0.09], description: "The home of majestic lions." },
+            { name: "Penguin Pool", coords: [51.51, -0.1], description: "A cool place for penguins." },
+            { name: "Elephant Zone", coords: [51.503, -0.08], description: "Where the gentle giants roam." },
+        ];
+
+        habitats.forEach(function(habitat) {
+            L.marker(habitat.coords)
+                .addTo(map)
+                .bindPopup(`<b>${habitat.name}</b><br>${habitat.description}`)
+                .openPopup();
+        });
+    </script>
+</body>
+</html>
